@@ -1,0 +1,31 @@
+body {
+  position: relative;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.mid-sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 35%;
+}
+
+.contacts {
+  list-style: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-text {
+  line-height: 1.6;
+}
+
+.hdn {
+  display: none;
+}
