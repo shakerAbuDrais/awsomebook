@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.spacer {
+  height: 50px;
+}
+
+button {
+  background-color: #fff;
+  border-color: black;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  -moz-box-shadow: 5px 5px 5px #222;
+  -webkit-box-shadow: 5px 5px 5px #222;
+  box-shadow: 3px 3px 3px black;
+}
+
+input,
+td,
+button {
+  font-family: "Raleway", sans-serif;
+}
+
+*::-webkit-input-placeholder {
+  color: black;
+}
+
+h1,
+h2 {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 900;
+}

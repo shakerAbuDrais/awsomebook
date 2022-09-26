@@ -1,0 +1,53 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: rgb(199, 198, 198);
+  color: black;
+  border: 3px solid black;
+  margin-top: 10px;
+  width: 80%;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: rgb(80, 96, 214);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.logo > p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.v-line {
+  height: 100%;
+  width: 1.5px;
+  background-color: rgb(23, 31, 88);
+}
+
+.time {
+  align-self: self-end;
+  padding-right: 40px;
+}

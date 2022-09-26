@@ -1,0 +1,19 @@
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+tr {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #c4c5c5;
+}

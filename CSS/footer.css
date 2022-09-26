@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  position: fixed;
+  bottom: 10px;
+  background-color: rgb(199, 198, 198);
+  color: black;
+  padding: 0 2rem;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+  height: 50px;
+}
