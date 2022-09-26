@@ -1,6 +1,7 @@
 body {
   position: relative;
 }
+
 .contact {
   display: flex;
   flex-direction: column;
